@@ -239,8 +239,8 @@ private:
 };
 
 
- 
- 
+
+
 class AbstractClass
 {
 public:
@@ -252,12 +252,12 @@ public:
 protected:
 	virtual void Primitive1() = 0;
 	virtual void Primitive2() = 0;
- };
+};
 
-class ConCreateClass1:public AbstractClass
+class ConCreateClass1 :public AbstractClass
 {
 public:
- 
+
 	virtual void Primitive2()
 	{
 		cout << __FUNCTION__ << endl;
@@ -276,12 +276,14 @@ public:
 #include "Factory.h"
 #include "State.h"
 #include "Observer.h"
+#include "Memento.h"
+#include "Mediator.h"
+#include "Command.h"
 
 int main(int argc, char *argv[])
 {
+	s3::testCommand4();
  
-	testObserver();
-
 
 
 	system("pause");

@@ -10,6 +10,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Mediator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Strategy.h" />
@@ -17,5 +18,8 @@
     <ClInclude Include="PublicHeaders.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="Memento.h" />
+    <ClInclude Include="Mediator.h" />
+    <ClInclude Include="Command.h" />
   </ItemGroup>
 </Project>

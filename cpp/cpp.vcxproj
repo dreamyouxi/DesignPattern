@@ -185,11 +185,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mediator.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="State.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Command.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="Mediator.h" />
+    <ClInclude Include="Memento.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="PublicHeaders.h" />
     <ClInclude Include="State.h" />

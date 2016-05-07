@@ -190,6 +190,7 @@
     <ClCompile Include="State.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChainOfResponsibility.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="Factory.h" />
     <ClInclude Include="Mediator.h" />
@@ -198,6 +199,7 @@
     <ClInclude Include="PublicHeaders.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Strategy.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

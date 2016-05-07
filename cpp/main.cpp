@@ -279,11 +279,14 @@ public:
 #include "Memento.h"
 #include "Mediator.h"
 #include "Command.h"
+#include "Visitor.h"
+#include "ChainOfResponsibility.h"
 
 int main(int argc, char *argv[])
 {
-	s3::testCommand4();
- 
+	testChain();
+
+
 
 
 	system("pause");
